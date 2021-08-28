@@ -3,11 +3,11 @@ package check;
 import java.awt.Robot;
 
 public class Check {
-	private static String firstName = "okuyama";
-	private static String lastName = "takaaki";
+	private static String firstName = "takaaki";
+	private static String lastName = "okuyama";
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		private void printName(String first,String last) {
+		private static void printName(String first,String last) {
 			System.out.println("printNameメソッド→" + first + last);
 		}
 		printName(firstName,lastName);
@@ -18,3 +18,4 @@ public class Check {
 	}
 
 }
+
