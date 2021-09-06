@@ -2,22 +2,22 @@
   .header{
     width:150px;
     height:100px;
-    background-color:red;
+    background-color:#141f40;
   }
   .footer{
     width:150px;
     height:100px;
-    background-color:yellow;
+    background-color:#d98d30;
   }
   .left{
     width:150px;
     height:250px;
-    background-color:green;
+    background-color:#80bfa8;
   }
   .content-sub{
     width:150px;
     height:100px;
-    background-color:orange;
+    background-color:#8c2727;
   }
   .content{
     display:flex;
@@ -29,18 +29,18 @@
   .side-menu{
     width:150px;
     height:150px;
-    background-color:yellowgreen;
+    background-color:#ff9e6b;
     order:1;
   }
   .title{
     width:150px;
     height:50px;
-    background-color:blue;
+    background-color:#dbd400;
   }
   .text{
     width:150px;
     height:100px;
-    background-color:black;
+    background-color:#0093b7;
   }
 }
 
@@ -48,12 +48,12 @@
   .header{
     width:300px;
     height:100px;
-    background-color:red;
+    background-color:#141f40;
   }
   .footer{
     width:300px;
     height:100px;
-    background-color:yellow;
+    background-color:#d98d30;
   }
   .clearfix::after{
     content:"";
@@ -63,41 +63,39 @@
   .left{
     width:100px;
     height:250px;
-    background-color:green;
+    background-color:#80bfa8;
     float:left;
   }
   .right{
     width:200px;
     height:250px;
-    background-color:pink;
     float:left
   }
   .content-sub{
     width:200px;
     height:100px;
-    background-color:orange;
+    background-color:#8c2727;
     float:left
   }
   .article{
     width:125px;
     height:150px;
-    background-color:black;
     float:left
   }
   .side-menu{
     width:75px;
     height:150px;
-    background-color:yellowgreen;
+    background-color:#ff9e6b;
     float:left
   }
   .title{
     width:125px;
     height:50px;
-    background-color:blue;
+    background-color:#dbd400;
   }
   .text{
     width:125px;
     height:100px;
-    background-color:black;
+    background-color:#0093b7;
   }
 }
